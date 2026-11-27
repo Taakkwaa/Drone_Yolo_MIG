@@ -48,6 +48,11 @@ mv yolo26n_ncnn_model yolo26n_ncnn_model_320
 cd ..
 ```
 
+Sur Windows:
+python3 -m venv .venv && .\.venv\Scripts\activate.bat
+
+
+
 (Pour YOLOv8n : mêmes commandes avec `yolov8n.pt`, ex. `yolo export model=yolov8n.pt format=onnx`.)
 
 Les poids sont téléchargés automatiquement au premier export. La taille d'entrée et
